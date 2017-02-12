@@ -13,7 +13,7 @@
     <div id="map"></div>
     <script>
       function initMap() {
-        var shawks = {lat: 39.0417, lng: -94.7202};
+        var uluru = {lat: 39.0417, lng: -94.7202};
         var cres1 = {lat: 37.751, lng: -97.822};
         var cres2 = {lat: 37.751, lng: -97.822};
         var cres3 = {lat: 37.751, lng: -97.822};
@@ -32,10 +32,10 @@
         var kfisher = {lat: 35.851, lng: -97.9515};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
-          center: shawks
+          center: uluru
         });
         var marker = new google.maps.Marker({
-          position: shawks, cres1, cres2, cres3, cres4, suland, cres5, cres6, cres7, cres8, cres9, cres10, cres11, cres12, potks, lwood, kfisher 
+          position: uluru, cres1, cres2, cres3, cres4, suland, cres5, cres6, cres7, cres8, cres9, cres10, cres11, cres12, potks, lwood, kfisher 
           map: map
         });
       }
